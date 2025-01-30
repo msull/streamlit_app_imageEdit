@@ -7,7 +7,7 @@ import streamlit as st
 from PIL import Image, ImageOps, ImageEnhance, ImageFilter, ExifTags
 import pyheif
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Simple Image Editor", layout="wide")
 
 @st.cache_data()
 def convert_heic_to_jpeg(image_file: io.BytesIO) -> Image.Image:
