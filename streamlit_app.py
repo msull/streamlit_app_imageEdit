@@ -251,7 +251,7 @@ def main():
             dpi_placeholder.metric("DPI", "N/A")
 
         with c2:
-            st.image(image, use_container_width=True)
+            st.image(image, use_container_width=False)
 
         inner_c1, inner_c2, *_ = c2.columns((2))
         file_format = inner_c1.selectbox(
