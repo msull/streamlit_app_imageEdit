@@ -259,7 +259,7 @@ def main():
             index=0,
             label_visibility="collapsed"
         )
-        download_button = inner_c2.button(":material/download:", type='tertiary')
+        download_button = inner_c2.button(":material/download:")
 
         if download_button:
             # Convert final image to bytes
